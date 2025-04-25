@@ -18,8 +18,9 @@
         "name": "next"
       }
     ],
+    "baseUrl": "./src",  // Point to the `src` folder
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
